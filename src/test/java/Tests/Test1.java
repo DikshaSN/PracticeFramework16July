@@ -35,7 +35,7 @@ public class Test1 extends BaseTest{
 	}
 
 	public void gitDemo(){
-		system.out.println("Code Added to git")
+		System.out.println("Code Added to git");
 	}
 
 }
