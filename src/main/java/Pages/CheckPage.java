@@ -34,7 +34,8 @@ public class CheckPage extends AbstractComponent{
 		WebElement India= countries.stream().filter(s->s.getText().equalsIgnoreCase("India")).findFirst().orElse(null);
 		India.click();
 	}
-	public void goToConfirmationPage() {
+	public void goToConfirmationPage() throws InterruptedException {
+		Thread.sleep(2000);
 		submitButton.click();
 	}
 
